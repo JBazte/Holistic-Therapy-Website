@@ -1,0 +1,68 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('../images/background.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.logo {
+    width: 10%;
+    vertical-align: middle;
+}
+
+.title {
+    text-shadow: 0px 0 5px black;
+}
+
+.topleft {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Parisienne', cursive;
+    margin-bottom: 28px;
+    text-shadow: 0px 0 5px black;
+}
+
+p {
+    text-shadow: 0px 0 5px black;
+}
+
+hr {
+    margin: auto;
+    width: 70%;
+}
+
+i {
+    transition: 0.3s;
+}
+
+i:hover {
+    color: black;
+}
